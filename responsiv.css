@@ -1,0 +1,748 @@
+/* RESPONSIVIDADE - TELAS PEQUENAS (CELULARES) */
+@media (max-width: 768px) {
+
+    /* HEADER */
+    .header {
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 10px;
+        padding: 15px;
+    }
+
+    .logo img {
+        width: 90px;
+        height: auto;
+    }
+
+    .pesquisa-bar {
+        width: 100%;
+        margin-left: 10px;
+        flex: 1;
+        justify-content: flex-start;
+    }
+
+    .pesquisa-bar input {
+        width: 80%;
+    }
+
+    /* LAYOUT PRINCIPAL */
+    .container {
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .content {
+        padding: 0;
+    }
+
+    .vid-2 {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+    }
+
+    /* TÍTULO PRIMEIRO */
+    .container-detalhes h2 {
+        font-size: 20px;
+        order: -1;
+    }
+
+
+    /* CANAL + INSCRIÇÃO E AÇÕES */
+
+    .todos-lado {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .lado-lado {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .lado-lado img.img-canal {
+        width: 40px;
+        height: 40px;
+    }
+
+    .img-verif {
+        width: 14px;
+        height: 14px;
+        margin-top: 29px;
+        margin-right: 73px;
+        transform: translate(-50%, -50%); /* Centraliza a imagem */
+        z-index: 9999; /* Garante que a imagem fique na frente de outros elementos */
+    }
+
+    .nome-canal {
+        font-size: 14px;
+    }
+
+    .direita {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-left: 0;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .inscrever {
+        font-size: 13px;
+        padding: 8px 12px;
+    }
+
+    .like-deslike {
+        gap: 10px;
+        width: auto;
+        padding: 5px 10px;
+    }
+
+    .like {
+        width: 20px;
+        height: 20px;
+    }
+
+    .deslike {
+        width: 20px;
+        height: 20px;
+    }
+
+    .compartilhamento {
+        padding: 5px 10px;
+        width: auto;
+    }
+
+    .compart {
+        width: 18px;
+        height: 18px;
+    }
+
+    /* DESCRIÇÃO */
+    .conteiner-descr {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .text {
+        margin-left: 0;
+    }
+
+    /* COMENTÁRIOS */
+    .comments h1.coment {
+        font-size: 20px;
+    }
+
+    .comment {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 10px;
+        margin-bottom: 15px;
+        white-space: normal;
+    }
+
+    .avatar {
+        width: 30px;
+        height: 30px;
+    }
+
+    .comment strong {
+        font-size: 13px;
+    }
+
+    .comment p {
+        font-size: 14px;
+        margin-top: 3px;
+    }
+
+    /* RECOMENDADOS - UM EMBAIXO DO OUTRO */
+    .sidebar {
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    .recommended-video {
+        margin-bottom: 25px;
+    }
+
+    .recommended-video iframe {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+    }
+
+    .recommended-video p {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .recomend-text {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+}
+
+
+/* Estilos para celulares grandes */
+@media (min-width: 480px) and (max-width: 767px){
+
+    /* HEADER */
+    .header {
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 10px;
+        padding: 15px;
+    }
+
+    .logo img {
+        width: 90px;
+        height: auto;
+    }
+
+    .pesquisa-bar {
+        width: 100%;
+        margin-left: 10px;
+        flex: 1;
+        justify-content: flex-start;
+    }
+
+    .pesquisa-bar input {
+        width: 80%;
+    }
+
+    /* LAYOUT PRINCIPAL */
+    .container {
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .content {
+        padding: 0;
+    }
+
+    .vid-2 {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+    }
+
+    /* TÍTULO PRIMEIRO */
+    .container-detalhes h2 {
+        font-size: 20px;
+        order: -1;
+    }
+
+
+    /* CANAL + INSCRIÇÃO E AÇÕES */
+
+    .todos-lado {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .lado-lado {
+        flex-direction: row;
+        justify-content: left;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .lado-lado img.img-canal {
+        width: 40px;
+        height: 40px;
+    }
+
+    .img-verif {
+        width: 14px;
+        height: 14px;
+        margin-top: 29px;
+        margin-right: 1000px;
+        transform: translate(-50%, -50%); /* Centraliza a imagem */
+        z-index: 9999; /* Garante que a imagem fique na frente de outros elementos */
+    }
+
+    .nome-canal {
+        font-size: 14px;
+    }
+
+    .direita {
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        margin-left: 0;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .inscrever {
+        font-size: 13px;
+        padding: 8px 12px;
+    }
+
+    .like-deslike {
+        gap: 10px;
+        width: auto;
+        padding: 5px 10px;
+    }
+
+    .like {
+        width: 20px;
+        height: 20px;
+    }
+
+    .deslike {
+        width: 20px;
+        height: 20px;
+    }
+
+    .compartilhamento {
+        padding: 5px 10px;
+        width: auto;
+    }
+
+    .compart {
+        width: 18px;
+        height: 18px;
+    }
+
+    /* DESCRIÇÃO */
+    .conteiner-descr {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .text {
+        margin-left: 0;
+    }
+
+    /* COMENTÁRIOS */
+    .comments h1.coment {
+        font-size: 20px;
+    }
+
+    .comment {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 10px;
+        margin-bottom: 15px;
+        white-space: normal;
+    }
+
+    .avatar {
+        width: 30px;
+        height: 30px;
+    }
+
+    .comment strong {
+        font-size: 13px;
+    }
+
+    .comment p {
+        font-size: 14px;
+        margin-top: 3px;
+    }
+
+    /* RECOMENDADOS - UM EMBAIXO DO OUTRO */
+    .sidebar {
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    .recommended-video {
+        margin-bottom: 25px;
+    }
+
+    .recommended-video iframe {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+    }
+
+    .recommended-video p {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .recomend-text {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    /* Estilos para celulares pequenos */
+    /* HEADER */
+    .header {
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 10px;
+        padding: 15px;
+    }
+
+    .logo img {
+        width: 90px;
+        height: auto;
+    }
+
+    .pesquisa-bar {
+        width: 100%;
+        margin-left: 10px;
+        flex: 1;
+        justify-content: flex-start;
+    }
+
+    .pesquisa-bar input {
+        width: 80%;
+    }
+
+    /* LAYOUT PRINCIPAL */
+    .container {
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .content {
+        padding: 0;
+    }
+
+    .vid-2 {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+    }
+
+    /* TÍTULO PRIMEIRO */
+    .container-detalhes h2 {
+        font-size: 20px;
+        order: -1;
+    }
+
+
+    /* CANAL + INSCRIÇÃO E AÇÕES */
+
+    .todos-lado {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .lado-lado {
+        flex-direction: row;
+        justify-content: left;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .lado-lado img.img-canal {
+        width: 40px;
+        height: 40px;
+    }
+
+    .img-verif {
+        width: 14px;
+        height: 14px;
+        margin-top: 29px;
+        margin-right: 1000px;
+        transform: translate(-50%, -50%); /* Centraliza a imagem */
+        z-index: 9999; /* Garante que a imagem fique na frente de outros elementos */
+    }
+
+    .nome-canal {
+        font-size: 14px;
+    }
+
+    .direita {
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        margin-left: 0;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .inscrever {
+        font-size: 13px;
+        padding: 8px 12px;
+    }
+
+    .like-deslike {
+        gap: 10px;
+        width: auto;
+        padding: 5px 10px;
+    }
+
+    .like {
+        width: 20px;
+        height: 20px;
+    }
+
+    .deslike {
+        width: 20px;
+        height: 20px;
+    }
+
+    .compartilhamento {
+        padding: 5px 10px;
+        width: auto;
+    }
+
+    .compart {
+        width: 18px;
+        height: 18px;
+    }
+
+    /* DESCRIÇÃO */
+    .conteiner-descr {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .text {
+        margin-left: 0;
+    }
+
+    /* COMENTÁRIOS */
+    .comments h1.coment {
+        font-size: 20px;
+    }
+
+    .comment {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 10px;
+        margin-bottom: 15px;
+        white-space: normal;
+    }
+
+    .avatar {
+        width: 30px;
+        height: 30px;
+    }
+
+    .comment strong {
+        font-size: 13px;
+    }
+
+    .comment p {
+        font-size: 14px;
+        margin-top: 3px;
+    }
+
+    /* RECOMENDADOS - UM EMBAIXO DO OUTRO */
+    .sidebar {
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    .recommended-video {
+        margin-bottom: 25px;
+    }
+
+    .recommended-video iframe {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+    }
+
+    .recommended-video p {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .recomend-text {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    /* Estilos para tablets grandes */
+     /* Estilos para celulares pequenos */
+    /* HEADER */
+    .header {
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 10px;
+        padding: 15px;
+    }
+
+    .logo img {
+        width: 90px;
+        height: auto;
+    }
+
+    .pesquisa-bar {
+        width: 100%;
+        margin-left: 10px;
+        flex: 1;
+        justify-content: flex-start;
+    }
+
+    .pesquisa-bar input {
+        width: 80%;
+    }
+
+    /* LAYOUT PRINCIPAL */
+    .container {
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .content {
+        padding: 0;
+    }
+
+    .vid-2 {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+    }
+
+    /* TÍTULO PRIMEIRO */
+    .container-detalhes h2 {
+        font-size: 20px;
+        order: -1;
+    }
+
+
+    /* CANAL + INSCRIÇÃO E AÇÕES */
+
+    .todos-lado {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .lado-lado {
+        flex-direction: row;
+        justify-content: left;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .lado-lado img.img-canal {
+        width: 40px;
+        height: 40px;
+    }
+
+    .img-verif {
+        width: 14px;
+        height: 14px;
+        margin-top: 29px;
+        margin-right: 1000px;
+        transform: translate(-50%, -50%); /* Centraliza a imagem */
+        z-index: 9999; /* Garante que a imagem fique na frente de outros elementos */
+    }
+
+    .nome-canal {
+        font-size: 14px;
+    }
+
+    .direita {
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .inscrever {
+        font-size: 13px;
+        padding: 8px 12px;
+    }
+
+    .like-deslike {
+        gap: 10px;
+        width: auto;
+        padding: 5px 10px;
+    }
+
+    .like {
+        width: 20px;
+        height: 20px;
+    }
+
+    .deslike {
+        width: 20px;
+        height: 20px;
+    }
+
+    .compartilhamento {
+        padding: 5px 10px;
+        width: auto;
+    }
+
+    .compart {
+        width: 18px;
+        height: 18px;
+    }
+
+    /* DESCRIÇÃO */
+    .conteiner-descr {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .text {
+        margin-left: 0;
+    }
+
+    /* COMENTÁRIOS */
+    .comments h1.coment {
+        font-size: 20px;
+    }
+
+    .comment {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 10px;
+        margin-bottom: 15px;
+        white-space: normal;
+    }
+
+    .avatar {
+        width: 30px;
+        height: 30px;
+    }
+
+    .comment strong {
+        font-size: 13px;
+    }
+
+    .comment p {
+        font-size: 14px;
+        margin-top: 3px;
+    }
+
+    /* RECOMENDADOS - UM EMBAIXO DO OUTRO */
+    .sidebar {
+        margin-top: 20px;
+        padding: 10px;
+    }
+
+    .recommended-video {
+        margin-bottom: 25px;
+    }
+
+    .recommended-video iframe {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+    }
+
+    .recommended-video p {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    .recomend-text {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+}
+
